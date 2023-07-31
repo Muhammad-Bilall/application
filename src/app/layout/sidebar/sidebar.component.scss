@@ -1,0 +1,57 @@
+.logo {
+    margin: 20px;
+
+    img {
+        width: 200px;
+    }
+}
+
+mat-icon {
+    vertical-align: center;
+    margin-right: 1rem;
+}
+
+mat-divider {
+    border-top-width: 2px;
+    border-color: aliceblue;
+}
+
+mat-list-item {
+    color: aliceblue !important;
+    font-size: 0.8rem;
+    height: 44px !important;
+    margin-bottom: 4px;
+}
+
+.list-item-active {
+    color: aliceblue !important;
+
+    ::ng-deep {
+        .mat-list-item-content {
+            background: #2c3344 !important;
+
+            &:hover {
+                background: #2c3344 !important;
+            }
+        }
+    }
+}
+
+.mat-subheader {
+    color: #818cf8;
+    font-size: 0.6rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+:host{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+mat-drawer{
+    width: 260px;
+     background: #3c68aa;
+}
+mat-drawer-container{
+    height: 100%;
+}

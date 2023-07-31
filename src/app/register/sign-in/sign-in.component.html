@@ -1,0 +1,92 @@
+<!-- <div *ngIf="!showLogin" class="sign-up"> -->
+<div class="container">
+    <div class="row">
+        <div class="col-md -6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Sign Up</h1>
+                    <h6>Please Register Yourself</h6>
+                </div>
+                <form>
+                    <form [formGroup]="registerForm" (ngSubmit)="signup()">
+
+                        <div class="mb-3">
+                            <span style="color: red;" *ngIf="name && name.invalid && name.touched">Input field invalid</span>
+                            <label for="exampleInputName1" class="form-label">UserName</label>
+                            <input type="name" class="form-control" id="exampleInputName1" aria-describedby="UserName"
+                                formControlName="UserName">
+                            <div id="Name" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputNumber1" class="form-label">Phone no.</label>
+                            <input type="number" class="form-control" id="exampleInputNumber1"
+                                formControlName="phoneno">
+                        </div>
+                        <div class="mb-3">
+                            <span style="color: red;" *ngIf="email && email.invalid && email.touched">Input field invalid</span>
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" formControlName="email">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <span style="color: red;" *ngIf="password && password.invalid && password.touched">Input field invalid</span>
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                formControlName="password">
+                        </div>
+                        <div class="mb-3">Select your Role 
+                           <select name="role" formControlName="role">
+                            <option value="Admin">Admin</option>
+                            <option value="Doctor">Doctor</option>
+                            <option value="Patient">Patient</option>
+
+                           </select>
+                        </div>
+
+                        <button (click)="signup()" [disabled]="registerForm.invalid" class="btn btn-primary" routerLink="/Layout">SignUp</button>
+                    </form>
+                    <span>Already have an account?</span>
+                    <a routerLink="/login">login</a>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- <div *ngIf="showLogin" class="login"> -->
+<!-- 
+    <div class="container">
+        <div class="row">
+            <div class="col-md -6">
+                <div class="card">
+                    <div class="text-center">
+                        <h1>Login</h1>
+                        <h6>Please Login Yourself</h6>
+                    </div>
+                    <form [formGroup]="registerForm" (ngSubmit)="login()">
+                        
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" formControlName="Name">
+                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1" formControlName="password">
+                            </div>
+                            <button    type="submit" class="btn btn-primary" routerLink="/Layout">Login</button>
+                            <a  (click)="openSignup()" routerLink="register">register</a>
+                        </form >
+                       
+                          
+                   
+                </div>
+            </div>
+        </div>
+    </div> -->

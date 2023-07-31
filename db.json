@@ -1,0 +1,196 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "FullName": "faisal",
+      "email": "faisal@gmail.com",
+      "password": "741258",
+      "phoneno": 789654123
+    },
+    {
+      "FullName": "bilal",
+      "email": "Mdbilal1042@gmail.com",
+      "password": "78451",
+      "phoneno": 79684351,
+      "id": 2
+    },
+    {
+      "FullName": "ali",
+      "email": "ali@gmail.com",
+      "password": "12345678",
+      "phoneno": 23456789,
+      "id": 3
+    },
+    {
+      "FullName": "ali",
+      "email": "sehfjgkhlj",
+      "password": "253678",
+      "phoneno": 42546789,
+      "id": 4
+    },
+    {
+      "FullName": "ali",
+      "email": "sehfjgkhlj",
+      "password": "253678",
+      "phoneno": 42546789,
+      "id": 5
+    },
+    {
+      "FullName": "asad",
+      "email": "asad@gmail.com",
+      "password": "asad123",
+      "phoneno": 79654123,
+      "id": 6
+    },
+    {
+      "FullName": "asad",
+      "email": "asad@gmail.com",
+      "password": "asad123",
+      "phoneno": 79654123,
+      "id": 7
+    },
+    {
+      "FullName": "zain",
+      "email": "zain@gmail.com",
+      "password": "zain123",
+      "phoneno": 243568,
+      "id": 8
+    },
+    {
+      "FullName": "zain",
+      "email": "zain@gmail.com",
+      "password": "zain123",
+      "phoneno": 243568,
+      "id": 9
+    },
+    {
+      "FullName": "saad",
+      "email": "saad@gmail.com",
+      "password": "saad123",
+      "phoneno": 1234,
+      "id": 10
+    },
+    {
+      "FullName": "saad",
+      "email": "saad@gmail.com",
+      "password": "saad123",
+      "phoneno": 1234,
+      "id": 11
+    },
+    {
+      "FullName": "moeez",
+      "email": "moeez@gmail.com",
+      "password": "123abc",
+      "phoneno": 12345678,
+      "id": 12
+    },
+    {
+      "FullName": "moeez",
+      "email": "moeez@gmail.com",
+      "password": "123abc",
+      "phoneno": 12345678,
+      "id": 13
+    },
+    {
+      "FullName": "ben",
+      "email": "ben@gmail.com",
+      "password": "ben123",
+      "phoneno": 3456576878990,
+      "id": 14
+    },
+    {
+      "FullName": "charlie",
+      "email": "charlie@gmail.com",
+      "password": "12345",
+      "phoneno": 2134546,
+      "id": 15
+    },
+    {
+      "FullName": "charlie",
+      "email": "charlie@gmail.com",
+      "password": "12345",
+      "phoneno": 2134546,
+      "id": 16
+    },
+    {
+      "FullName": "saad",
+      "email": "saad@gmail.com",
+      "password": "12345",
+      "phoneno": 78956210,
+      "Role": "Doctor",
+      "id": 17
+    },
+    {
+      "FullName": "saad",
+      "email": "saad@gmail.com",
+      "password": "12345",
+      "phoneno": 78956210,
+      "Role": "Doctor",
+      "id": 18
+    },
+    {
+      "FullName": "bilal",
+      "email": "bilal@gmail.com",
+      "password": "12345",
+      "phoneno": 963258741,
+      "Role": "Admin",
+      "id": 19
+    },
+    {
+      "FullName": "bilal",
+      "email": "bilal@gmail.com",
+      "password": "12345",
+      "phoneno": 963258741,
+      "Role": "Admin",
+      "id": 20
+    },
+    {
+      "FullName": "aziz",
+      "email": "aziz@gmail.com",
+      "password": "12345",
+      "phoneno": 79654123,
+      "Role": "Doctor",
+      "id": 21
+    },
+    {
+      "FullName": "aziz",
+      "email": "aziz@gmail.com",
+      "password": "12345",
+      "phoneno": 79654123,
+      "Role": "Doctor",
+      "id": 22
+    },
+    {
+      "FullName": "dummy",
+      "email": "abc@gmail.com",
+      "password": "12345",
+      "phoneno": 123456789,
+      "Role": "Patient",
+      "id": 23
+    },
+    {
+      "FullName": "dummy",
+      "email": "abc@gmail.com",
+      "password": "12345",
+      "phoneno": 123456789,
+      "Role": "Patient",
+      "id": 24
+    },
+    {
+      "FullName": "abc",
+      "email": "a@gmail.com",
+      "password": "12345",
+      "phoneno": 2134,
+      "role": "Patient",
+      "id": 25
+    },
+    {
+      "FullName": "abc",
+      "email": "a@gmail.com",
+      "password": "12345",
+      "phoneno": 2134,
+      "role": "Patient",
+      "id": 26
+    }
+  ]
+}
