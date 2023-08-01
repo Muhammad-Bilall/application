@@ -6,10 +6,10 @@
 <a mat-list-item routerLink="/Layout" routerLinkActive="list-item-active">
     Dashboard
 </a>
-<a mat-list-item routerLink="/Layout/doctor" routerLinkActive="list-item-active">
+<a *ngIf="isDoctor || isAdmin" mat-list-item routerLink="/Layout/doctor" routerLinkActive="list-item-active">
     Doctor
 </a>
-<a mat-list-item routerLink="/Layout/patient" routerLinkActive="list-item-active">
+<a  *ngIf="isPatient || isAdmin" mat-list-item routerLink="/Layout/patient" routerLinkActive="list-item-active">
     Patient
 </a>
 

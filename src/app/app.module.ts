@@ -26,6 +26,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { DropdownModule } from 'primeng/dropdown';
 import { MatDialogModule } from '@angular/material/dialog';
 import { SignInComponent } from './register/sign-in/sign-in.component';
+import { authGuard } from './auth/auth.guard';
 
 
 
