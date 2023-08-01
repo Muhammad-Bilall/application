@@ -37,7 +37,7 @@
                                 formControlName="password">
                         </div>
                         <div class="mb-3">Select your Role 
-                           <select name="role" formControlName="role">
+                           <select name="Role" formControlName="Role">
                             <option value="Admin">Admin</option>
                             <option value="Doctor">Doctor</option>
                             <option value="Patient">Patient</option>
@@ -45,7 +45,7 @@
                            </select>
                         </div>
 
-                        <button (click)="signup()" [disabled]="registerForm.invalid" class="btn btn-primary" routerLink="/Layout">SignUp</button>
+                        <button type="submit" [disabled]="registerForm.invalid" class="btn btn-primary">SignUp</button>
                     </form>
                     <span>Already have an account?</span>
                     <a routerLink="/login">login</a>

@@ -191,6 +191,30 @@
       "phoneno": 2134,
       "role": "Patient",
       "id": 26
+    },
+    {
+      "UserName": "qwerty7/89645312",
+      "email": "asd@gmail.com",
+      "password": "123123",
+      "phoneno": 8946531.263,
+      "role": "Patient",
+      "id": 27
+    },
+    {
+      "UserName": "qwerty7/89645312",
+      "email": "asd@gmail.com",
+      "password": "123123",
+      "phoneno": 8946531.263,
+      "role": "Patient",
+      "id": 28
+    },
+    {
+      "UserName": "sdfgn",
+      "email": "u@gmail.com",
+      "password": "123456",
+      "phoneno": 23145768,
+      "role": "Doctor",
+      "id": 29
     }
   ]
 }

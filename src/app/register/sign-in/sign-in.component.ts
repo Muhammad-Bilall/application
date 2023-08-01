@@ -22,7 +22,7 @@ export class SignInComponent {
       email:new FormControl('',[Validators.required, Validators.email]),
       password:new FormControl('',[Validators.required, Validators.minLength(5)]),
       phoneno:new FormControl(''),
-      role:new FormControl('',[Validators.required])
+      Role:new FormControl('',[Validators.required])
 
     })
     
